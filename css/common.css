@@ -27,12 +27,11 @@ button {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .gallery__item:not(:last-child) {
   margin-bottom: 5px;
 }
 
-.gallery__image {
-  display: inline-block;
-}
