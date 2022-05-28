@@ -1,7 +1,7 @@
 const refs = {
     decrement: document.querySelector('button[data-action="decrement"]'),
     increment: document.querySelector('button[data-action="increment"]'),
-    value: document.querySelector('#value'),
+    caunterValue: document.querySelector('#value'),
 };
 
 let value = 0;
@@ -25,7 +25,7 @@ function makeIncrement() {
 }
 
 function updateValue() {
-    refs.value.textContent = value;
+    refs.caunterValue.textContent = value;
 }
 
 
